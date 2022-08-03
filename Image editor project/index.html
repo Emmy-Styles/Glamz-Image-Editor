@@ -17,13 +17,13 @@
                 <div class="filter">
                     <label for="" class="title">Filters</label>
                     <div class="options">
-                        <button class="active">Brightness</button>
-                        <button>Saturation</button>
-                        <button>Inversion</button>
-                        <button>Grayscale</button>
+                        <button id="brightness" class="active">Brightness</button>
+                        <button id="saturation">Saturation</button>
+                        <button id="inversion">Inversion</button>
+                        <button id="grayscale">Grayscale</button>
                     </div>
                     <div class="slider">
-                        <div class="filter">
+                        <div class="filter-info">
                             <p class="name">Brightness</p>
                             <p class="value">100%</p>
                         </div>
@@ -33,6 +33,7 @@
                 <div class="rotate">
                     <label for="" class="title">Rotate & Flip</label>
                     <div class="options">
+
                         <button><i class="fa-solid fa-rotate-left"></i></button>
                         <button><i class="fa-solid fa-rotate-right"></i></button>
                         <button><i class="bx bx-reflect-vertical"></i></button>
@@ -47,10 +48,12 @@
         <div class="controls">
             <button class="reset-filter">Reset Filters</button>
             <div class="row">
+                <input type="file" class="file-input" accept="Image/*" hidden>
                 <button class="choose-img">Choose Image</button>
                 <button class="save-img">Save Image</button>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
