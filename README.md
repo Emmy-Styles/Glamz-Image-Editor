@@ -1,2 +1,1 @@
-# Simple-Image-Editor
-Simple and easy to use image editor
+# Glamz-Image-Editor
